@@ -1,0 +1,47 @@
+project:
+  name: Chamber Clerk Bot
+  repository_purpose: Coordination and implementation repo for the International Private Law Chamber Discord bot.
+  status: planning
+  owner: xxxgh0st0xxx
+  target_discord_invite: https://discord.gg/SvJxJxQ26
+
+doctrine:
+  - The Chamber only designs private law.
+  - Chamber authority is voluntary, membership-based, and contract-based.
+  - No Chamber rule overrides host-state law.
+  - The Chamber appoints the Chief Arbitrator.
+  - The Chief Arbitrator administers arbitration under Chamber rules.
+  - Special Arbitration Review is the internal appeal/review mechanism.
+  - Committee members may act as review arbiters only when appointed under the rules.
+  - All adopted rules, motions, reports, and decisions are archived and versioned.
+
+codex_rules:
+  - Read README.md and CODEX.md before editing.
+  - Do not commit secrets.
+  - Do not commit .env files.
+  - Do not create public-law, sovereign, policing, tax, criminal-law, or government-claim language.
+  - Keep the system private, voluntary, contractual, and host-law subordinate.
+  - Use issues and pull requests for task tracking.
+  - Update this file after major work.
+  - Add an agent_log entry after meaningful changes.
+
+mvp_modules:
+  - Membership
+  - Committees
+  - Motions and private-law drafting
+  - Adopted rules and versioning
+  - Arbitration registry
+  - Special Arbitration Review
+  - Archives and doctrine search
+  - Audit logging
+  - Role-based permissions
+
+agent_log:
+  - date: 2026-06-29
+    actor: ChatGPT
+    summary: Initialized coordination scaffold for Chamber Clerk Bot repository.
+    files_touched:
+      - README.md
+      - CODEX.md
+      - .agents/coordination.yaml
+    status: in_progress
